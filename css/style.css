@@ -42,10 +42,25 @@ width: 100%;
 background-color:rgba(255,255,255,.85);
 height: 95px;
 position: fixed;
-margin-top: 30px;
+/*margin-top: 30px;*/
+
+/* adjusting header size transition */
+-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
+#header.smaller{
+height:75px;
+}
+
+#header.smaller #logo{
+background-size:195px 65px;
+}
+
 #nav { width: 450px; float: right; margin-top: 30px; }
-#logo a { background: url('../img/ERS-Logo.svg')no-repeat; background-size:243px 81px; width: 243px; height: 81px; color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 6px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
+#logo { background: url('../img/ERS-Logo.svg')no-repeat; background-size:243px 81px; width: 243px; height: 81px; color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 6px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
 #nav ul{
 list-style: none;
 display: block;
@@ -78,7 +93,7 @@ margin: 50px auto;
 background:url('../img/exterior18.png') 50% 0 no-repeat fixed;
 /*background-color: blue;*/
 color: #fff;
-height: 600px;
+height: 200px;
 margin: 0;
 padding: 200px 0 260px 0;
 background-size: cover;
@@ -103,7 +118,7 @@ background-size: cover;
 #slide4{
 background-color: rgb(0,61,120);
 color: white;
-height: 300px;
+height: 200px;
 padding: 200px 0;
 }
 #slide5{
@@ -167,4 +182,34 @@ background-size: cover;
    color:black;
 }
 
+/*image grow css*/
+
+.pic {
+  /*border: 10px solid #fff;  
+  float: left;*/
+  height: 240px;
+  width: 320px;
+  /*margin: 20px;*/
+  overflow: hidden;
+  
+  /*-webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  */
+}
+
+.image1 img{
+width:320px;
+height:240px;
+
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+
+}
+.image1 img:hover{
+width:384px;
+height:288px;
+
+}
 
