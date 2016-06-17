@@ -6,11 +6,8 @@
  <link rel="stylesheet" href="css/style.css"/>
  <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
   <script type="text/javascript" src="js/classie.js"></script>
- <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
- <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
- <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
- <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
- <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
  <script>
  </script>
 </head>
@@ -19,22 +16,12 @@
 <!-- HEADER START--> 
 <header id="header">
 <div class="content">
-<div id="logo"><a href=""></a></div>
-
-<!--hover dropdown-->
-<!-- <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>-->
+<div id="logo" onclick="location.reload(true);"><a href=""></a></div>
 
 <nav id="nav">
  <ul>
- <li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
- <div class="dropdown"><button id="dropbtn1"><li><a href="#slide2" title="Next Section">About</a></li></button>
+<li><a href="#slide1" class="active" >HOME</a></li>
+<li><div class="dropdown"><div id="dropbtn"><a href="#slide2" >ABOUT &or;</a></div>
  <div class="dropdown-content">
     <a href="#">Mission/History</a>
     <a href="#">Therapeutic Areas</a>
@@ -42,9 +29,24 @@
     <a href="#">Who We Serve</a>
   </div>
   </div>
- <li><a href="#slide3" title="Next Section">Services</a></li>
- <li><a href="#slide4" title="Next Section">Blog</a></li>
- <li><a href="#slide5" title="Next Section">Contact</a></li>
+</li>
+ <li><div class="dropdown"><div id="dropbtn"><a href="#slide3" >SERVICES &or;</a></div>
+ <div class="dropdown-content">
+    <a href="#">Sales Training</a>
+    <a href="#">Med Com</a>
+    <a href="#">Management Training</a>
+    <a href="#">Medical Liason Training</a>
+  </div>
+  </div>
+</li>
+<li><div class="dropdown"><div id="dropbtn"><a href="#slide5" >CONTACT &or;</a></div>
+<div class="dropdown-content">
+    <a href="#">Contact</a>
+    <a href="#">Careers</a>
+  </div>
+  </div>
+</li>
+<li><a href="#slide4" >BLOG</a></li>
  </ul>
 </nav>
 </div>
@@ -98,21 +100,26 @@ window.onload = init();
 
 <!-- SLIDES START --> 
  <div id="slide1">
+ 
  <div class="content">
-
  <h2>Educational Resource</h2>
  <h2>Systems Inc.</h2>
  <div id="divider"> </div>
  <h3>Specializing in Medical Communication and Sales Training</h3>
- <div id="ribbon"></div>
- <div id="new_year"> </div>
+ <div id="bubbleicon" style="margin-left:272px;"><img src="img/numbers1.png"/></div>
+ <div id="bubbleicon" style="margin-left:422px;"><img src="img/numbers2.png"/></div>
+ <div id="bubbleicon" style="margin-left:572px;"><img src="img/numbers3.png"/></div>
  </div> 
+ 
  </div> 
  <div id="slide2">
  <div class="content" >
  <div class="quotes_container">
- <h3 class="quotes" style="margin-top:-50px;">A leader in the pharmaceutical marketplace since 1994, ERS helps clients to realize big picture goals, while optimizing sales training opportunities, and maximizing marketing reach with an effective promotional program.</h3>
- <div class="image1 pic" style="margin-top:-10px; margin-left:220px;"><img src="img/neurons.png"/></div>
+ <h3 class="quotes" style="margin-top:-120px; font-size:35px;">Who We Are</h3>
+ <h4 class="author_name_white" style="margin-top:-10px; color:white;">A leader in the pharmaceutical marketplace since 1994, ERS helps clients to realize big picture goals, while optimizing sales training opportunities, and maximizing marketing reach with an effective promotional program.</h4>
+ <div class="image1 pic" style="margin-top:50px; margin-left:-80px;"><img src="img/neurons.png"/></div>
+ <div class="image1 pic" style="margin-top:50px; margin-left:10px;"><img src="img/theater1.jpg"/></div>
+ <div class="image1 pic" style="margin-top:-240px; margin-left:580px;"><img src="img/ms_1.png"/></div>
  </div> 
  </div> 
  </div> 
@@ -137,9 +144,10 @@ window.onload = init();
  <div class="content">
  <div class="quotes_container">
  <h3 class="quotes">ADDRESS</br>The Galleria at 2 Bridge Avenue</br>Suite 623 Red Bank, New Jersey 07701</h3>
- <!--<img src="img/bob.png" align="left"/><h4 class="author_name_white">Bob Hope </h4>-->
+ <div id="buttonStyle" style="margin-left:100px;"><a href="">CONTACT</a></div>
+ <div id="buttonStyle" style="margin-left:20px;"><a href="">CAREERS</a></div>
  </div> 
- <div id="copyright"><p>©2016, Educational Resource Systems. All Rights Reserved. </p></div> 
+<!-- <div id="copyright"><p>©2016, Educational Resource Systems. All Rights Reserved. </p></div> -->
  </div> 
  </div> 
  <!-- SLIDES END -->
