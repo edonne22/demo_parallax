@@ -5,7 +5,8 @@
  <title>ERS Parallax Sample</title>
  <link rel="stylesheet" href="css/style.css"/>
  <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
-  <script type="text/javascript" src="js/classie.js"></script>
+ <script type="text/javascript" src="js/windowSizing.js"></script>
+ <script type="text/javascript" src="js/classie.js"></script>
  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
  <script>
@@ -54,6 +55,7 @@
 <!-- JQuery -->
 <script>
 $(document).ready(function() {
+windowResize();
   $('a[href*=#]').each(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
     && location.hostname == this.hostname
@@ -74,7 +76,7 @@ $(document).ready(function() {
 
 });
 
-$('html, body').animate({scrollTop: targetOffset}, 1000);
+/*$('html, body').animate({scrollTop: targetOffset}, 1000);*/
 </script>
 
 <script>
@@ -109,6 +111,7 @@ window.onload = init();
  <div id="bubbleicon" style="margin-left:272px;"><img src="img/numbers1.png"/></div>
  <div id="bubbleicon" style="margin-left:422px;"><img src="img/numbers2.png"/></div>
  <div id="bubbleicon" style="margin-left:572px;"><img src="img/numbers3.png"/></div>
+ <a href="#slide2"><div id="downArrow" style="margin-left:432px; margin-top:260px;"><img src="img/arrow.png"/></div></a>
  </div> 
  
  </div> 
@@ -120,6 +123,7 @@ window.onload = init();
  <div class="image1 pic" style="margin-top:50px; margin-left:-80px;"><img src="img/neurons.png"/></div>
  <div class="image1 pic" style="margin-top:50px; margin-left:10px;"><img src="img/theater1.jpg"/></div>
  <div class="image1 pic" style="margin-top:-240px; margin-left:580px;"><img src="img/ms_1.png"/></div>
+ <a href="#slide3"><div id="downArrow" style="margin-left:365px; margin-top:340px;"><img src="img/arrow.png"/></div></a>
  </div> 
  </div> 
  </div> 
@@ -129,6 +133,7 @@ window.onload = init();
  <h3 class="textblock">With over two decades of experience, the Sales Training division of ERS has been exceeding client expectations with its unique blend of extensive therapeutic knowledge, unmatched creativity, and account management expertise.
  					</br> The Medical Communications division of ERS offers the full range of pre/post-launch promotional programs and communication services for pharmaceutical clients. ERS offers an advantage to clients by employing expert account management teams who are skilled in combining scientific proficiency, marketing know-how and skillful client servicing expertise.</h3>
  </div> 
+ <a href="#slide4"><div id="downArrow" style="margin-left:432px; margin-top:-10px;"><img src="img/arrow.png"/></div></a>
  </div> 
  </div> 
  <div id="slide4">
@@ -137,6 +142,7 @@ window.onload = init();
  <h3 class="textblock">“ERS: Leading the Way in Augmented Reality Learning Tools” </h3>
  <h4 class="text_color">By now, you’ve probably heard of Augmented Reality (AR). Lately it’s been cropping up in everything from iPhone games and magazine ads to museum exhibitions. It’s flashy and fun, but few people stop to consider the ways it can be applied as a truly innovative and effective learning tool. Early on, Educational Resource Systems (ERS) understood the potential of AR to deepen learning through interactivity. ERS has been using AR to create active learning experiences for several clients, using new techniques and technology that redefine the learning space...</h4>
  </div> 
+ <a href="#slide5"><div id="downArrow" style="margin-left:432px; margin-top:100px;"><img src="img/arrow.png"/></div></a>
  </div> 
  </div> 
  <div id="slide5">
@@ -145,7 +151,8 @@ window.onload = init();
  <h3 class="textblock">ADDRESS</br>The Galleria at 2 Bridge Avenue</br>Suite 623 Red Bank, New Jersey 07701</h3>
  <div id="buttonStyle" style="margin-left:100px;"><a href="">CONTACT</a></div>
  <div id="buttonStyle" style="margin-left:20px;"><a href="">CAREERS</a></div>
- </div> 
+ </div>
+ <a href="#slide1"><div id="downArrow" style="margin-left:432px; margin-top:180px;"><img src="img/upFF.png"/></div></a> 
 <!-- <div id="copyright"><p>©2016, Educational Resource Systems. All Rights Reserved. </p></div> -->
  </div> 
  </div> 
