@@ -84,7 +84,7 @@ padding-left: 21px;
 #nav li a:hover { color: #003d79; opacity:1; }
 #nav .dropdown-content a {font-size:14px; font-weight:400;}
 
-.quotes {
+.textblock {
 /*font-family: 'Montserrat', sans-serif;*/
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
@@ -93,9 +93,8 @@ text-align: left;
 margin: 30px auto;
 }
 
-.author_name_white { font-family: 'Roboto', sans-serif; font-weight:400; margin: 70px 0 0 10px; color: #003d79; font-size: 20px; } 
-.author_name_gray { font-family: 'Roboto', sans-serif; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; } 
-.quotes_container { width: 800px; margin: 0 auto; z-index:-1;}
+.text_color { font-family: 'Roboto', sans-serif; font-weight:400; margin: 70px 0 0 10px; color: #003d79; font-size: 20px; } 
+.text_container { width: 800px; margin: 0 auto; z-index:-1;}
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
