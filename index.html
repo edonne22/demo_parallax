@@ -3,6 +3,7 @@
  <head>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  <title>ERS Parallax Sample</title>
+ <link rel="stylesheet" href="css/flexslider.css" type="text/css">
  <link rel="stylesheet" href="css/style.css"/>
  <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
   <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
@@ -10,8 +11,12 @@
  <script type="text/javascript" src="js/classie.js"></script>
  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
- <script>
- </script>
+ <!--slider script-->
+ <script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
 </head>
 
 <body>
@@ -140,9 +145,26 @@ window.onload = init();
  </div> 
  <div id="slide4">
  <div class="content">
- <div class="text_container" style="margin-top:-130px">
+ <div class="text_container" style="margin-top:-220px;">
  <h3 class="textblock">“ERS: Leading the Way in Augmented Reality Learning Tools” </h3>
- <h4 class="text_color">By now, you’ve probably heard of Augmented Reality (AR). Lately it’s been cropping up in everything from iPhone games and magazine ads to museum exhibitions. It’s flashy and fun, but few people stop to consider the ways it can be applied as a truly innovative and effective learning tool. Early on, Educational Resource Systems (ERS) understood the potential of AR to deepen learning through interactivity. ERS has been using AR to create active learning experiences for several clients, using new techniques and technology that redefine the learning space...</h4>
+ <h4 class="text_color" style="margin-top:-10px;">By now, you’ve probably heard of Augmented Reality (AR). Lately it’s been cropping up in everything from iPhone games and magazine ads to museum exhibitions. It’s flashy and fun, but few people stop to consider the ways it can be applied as a truly innovative and effective learning tool. Early on, Educational Resource Systems (ERS) understood the potential of AR to deepen learning through interactivity. ERS has been using AR to create active learning experiences for several clients, using new techniques and technology that redefine the learning space...</h4>
+ 
+ <!--image slider test-->
+ <div class="flexslider" style="margin-top:30px; margin-left:260px;">
+  <ul class="slides">
+    <li>
+      <img src="img/slider/slide1.jpg" />
+    </li>
+    <li>
+      <img src="img/slider/slide2.jpg" />
+    </li>
+    <li>
+      <img src="img/slider/slide3.jpg" />
+    </li>
+  </ul>
+</div>
+<!--end image slider block-->
+ 
  </div> 
  <a href="#slide5"><div id="downArrow" style="margin-left:432px; margin-top:100px;"><img src="img/arrow.png"/></div></a>
  </div> 
