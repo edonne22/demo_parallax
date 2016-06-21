@@ -239,8 +239,10 @@ width:100px;
 height:100px;
 }
 
-#bubbleicon:hover{
+#bubbleicon img:hover{
 opacity:.7;
+width:105px;
+height:105px;
 }
 
 #downArrow img{
@@ -250,7 +252,7 @@ height:80px;
 }
 
 #downArrow{
-opacity:.5;
+opacity:.3;
 cursor:pointer;
 }
 
