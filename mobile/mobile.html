@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <title>ERS Parallax Sample</title>
+ <link rel="stylesheet" href="css/accordion-style.css" type="text/css">
+ <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+ <link rel="stylesheet" href="css/style.css"/>
+ <script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+ <script type="text/javascript" src="js/windowSizing.js"></script>
+ <script type="text/javascript" src="js/classie.js"></script>
+ <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+ <!--slider script-->
+ <script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+<!--show/hide menu-->
+<script type="text/javascript">
+ jQuery(function($){
+    	     $( '#hamburger' ).click(function(){
+    	     $('.accordion-menu').toggleClass('expand')
+    	     })
+        })
+</script>
+</head>
+
+<body>
+<!-- HEADER START--> 
+<header id="header">
+
+<div id="logo" onclick="location.reload(true);"><a href=""></a></div>
+
+<div id="hamburger">
+<ul class="accordion-menu">
+	<li class="has-children">
+		<input type="checkbox" name="group-1" id="group-1">
+		<label for="group-1">ABOUT</label>
+    	<ul>
+    		<li><a href="#0">Mission/History</a></li>
+    		<li><a href="#0">Therapeutic Areas</a></li>
+    		<li><a href="#0">Who We Are</a></li>
+    		<li><a href="#0">Who We Serve</a></li>
+    	</ul>
+    </li>
+
+	<li class="has-children">
+		<input type="checkbox" name="group-2" id="group-2">
+		<label for="group-2">SERVICES</label>
+		<ul>
+    		<li><a href="#0">Sales Training</a></li>
+    		<li><a href="#0">Med Com</a></li>
+    		<li><a href="#0">Management Training</a></li>
+    		<li><a href="#0">Medical Liason Training</a></li>
+    	</ul>
+	</li>
+	
+	<li class="has-children">
+		<input type="checkbox" name="group-3" id="group-3">
+		<label for="group-3">CONTACT</label>
+		<ul>
+    		<li><a href="#0">Contact</a></li>
+    		<li><a href="#0">Careers</a></li>
+    	</ul>	
+    </li>
+</ul> <!-- accordion-menu -->
+</div><!--end hamburger-->
+
+</header>
+
+ <div id="slide1">
+ 
+ <div class="content">
+ <h3><b>Specializing in Medical Communication and Sales Training</b></h3>
+ <h3>A leader in the pharmaceutical marketplace since 1994, ERS helps clients to realize big picture goals, while optimizing sales training opportunities, and maximizing marketing reach with an effective promotional program. </h3>
+ </div> 
+ </div> 
+ 
+ <footer>
+</footer>
+</body>
+</html>
