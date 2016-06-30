@@ -58,7 +58,16 @@ position: fixed;
 
 #nav { width: 500px; float: right; margin-top: 30px;}
 #logo {  cursor:pointer; background: url('../img/ERS-Logo.svg')no-repeat; background-size:243px 81px; width: 243px; height: 81px; text-decoration: none; font-size: 30px; margin-top: 6px; float:left; color: #fff; font-family: 'Roboto', sans-serif; font-weight: bold; }
-#hamburger {  cursor:pointer; background: url('../img/hamburger.png')no-repeat; background-size:65px 65px; width: 65px; height: 65px; float:right; margin-top: -65px; margin-right:20px;}
+#hamburger {  
+	cursor:pointer; 
+	background: url('../img/hamburger.png')no-repeat; 
+	background-size:65px 65px; 
+	width: 65px; 
+	height: 65px; 
+	float:right; 
+	margin-top: -65px; 
+	margin-right:20px; 
+}
 
 .textblock {
 /*font-family: 'Montserrat', sans-serif;*/

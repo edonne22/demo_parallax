@@ -15,9 +15,16 @@
  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
  <!--slider script-->
  <script type="text/javascript" charset="utf-8">
+ 
+  $(document).ready(function() {
+  	windowResize();
+  });
+ 
   $(window).load(function() {
     $('.flexslider').flexslider();
   });
+  
+  window.onresize= windowResize();
 </script>
 <!--show/hide menu-->
 <script type="text/javascript">
